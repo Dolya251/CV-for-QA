@@ -1,0 +1,235 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+.main-conteiner {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* content */
+
+.content {
+  padding: 100px 90px;
+  background-color: rgb(255, 246, 234);
+}
+.main-conent-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+/* about me section */
+.about-me-section {
+  margin: 0 0 40 0;
+}
+.about-me-profesion {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1, 21;
+  margin: 0 0 20 0;
+  color: #000000;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 25 0;
+}
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  background-color: rgb(250, 241, 228);
+}
+/*my projects section*/
+
+.my-projects {
+  margin: 0 0 50px 0;
+}
+.my-projects-list {
+  padding: 0 0 0 17px;
+}
+.my-projects-item {
+  color: #000000;
+  font-weight: bold;
+}
+.my-projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+.my-projects-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-projects-link:hover {
+  color: #fb6d3a;
+}
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/*my-work-experiense*/
+.my-work-experiense {
+  margin-bottom: 45px;
+  background-color: rgb(250, 241, 228);
+}
+.my-work-experiense-company {
+  color: #fb6d3a;
+}
+.my-work-experiense-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+.my-work-experiense-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+.my-work-experiense-divider {
+  color: #000000;
+}
+.my-work-experiense-duties {
+  padding: 0 0 0 18px;
+}
+.my-work-experiense-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-work-experiense-company-block {
+  margin: 0 15px 0 0;
+}
+
+/*Education*/
+.my-education-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.my-education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.my-education-faculty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/*sidebar-section*/
+
+.sidebar-section {
+  width: 370px;
+  margin: 40px 0 0 40px;
+  background-color: #a99b93;
+}
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin: 50px 0px 0px 40px;
+}
+.sidebar-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 10;
+}
+/*contacts section*/
+.contact-section-types {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 7px;
+}
+.contact-section-link {
+  color: #dad2cd;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.contact-section-link:hover {
+  color: #fb6d3a;
+}
+/*tech skills section*/
+.tech-skills-list {
+  padding: 0px 0px 0px 17px;
+}
+
+.tech-skills-item {
+  color: #fb6d3a;
+}
+
+.tech-skills-item-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*soft  skills section*/
+.soft-skills-list {
+  padding: 0 0 0 17px;
+}
+
+.soft-skills-item {
+  color: #fb6d3a;
+}
+.soft-skills-item-text {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* photo */
+.photo {
+  width: 370px;
+  height: 354px;
+  margin: 40px  0 0px;
+}
+.cert{
+  width: 300;
+  margin: 40px 0 0 35px;
+}
